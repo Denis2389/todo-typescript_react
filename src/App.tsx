@@ -1,11 +1,9 @@
 import './App.css'
-import { TodoList } from './components/TodoList'
 
-function App() {
-
+const App: React.FC = () => {
   return (
     <div>
-      <TodoList />
+      <h1>Currency Converter</h1>
     </div>
   )
 }
